@@ -15,7 +15,7 @@ then
 	ln -s "$drive"/osu-development/ $fileDev
 fi
 
-changeStorage() {
+changeLazerStorage() {
 	localosufolder=$HOME/.local/share/osu
 	osulazerGamefiles="$drive"/osulazer
 	
