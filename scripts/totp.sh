@@ -3,10 +3,11 @@
 #disable history
 set +o history
 
-keysFile=""
+keysFile="$HOME/.config/totp/keys.txt"
 
-if [[ ! $keysFile ]]; then
-    echo "Please set 'keyFile' to the file location."
+if [ ! -f $keysFile ]; then
+    echo "File not found!"
+    echo "File: $keysFile does not exist!"
     exit
 fi
 
