@@ -1,0 +1,10 @@
+[gpg]
+	program = gpg2
+[commit]
+	gpgsign = true
+[core]
+	autocrlf = input
+	editor = vim
+	fsmonitor = true
+[init]
+	defaultBranch = main
