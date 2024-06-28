@@ -37,7 +37,15 @@ userInput=$((userInput-1))
 
 totp=${listofkeys[$userInput]}
 
-oathtool -b --totp $totp
+code=$(oathtool -b --totp $totp)
+echo $code
+
+if [ $XDG_SESSION_TYPE = "wayland" ]; then
+    wl-copy $code
+else
+    echo "Not running on a wayland compositor. Clipboard has not been set."
+    #eventually add x11
+fi
 
 #reenable history
 set -o history
