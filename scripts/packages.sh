@@ -74,6 +74,8 @@ PACKAGES_YAY=(
 	'fcp-bin'
 	'epson-inkjet-printer-escpr'
 	'waypaper'
+	'parsec-bin'
+
 )
 
 PACKAGS_GIT=(
