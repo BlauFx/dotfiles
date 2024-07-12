@@ -75,7 +75,7 @@ PACKAGES_YAY=(
 	'epson-inkjet-printer-escpr'
 	'waypaper'
 	'parsec-bin'
-
+	'protonup-qt-bin'
 )
 
 PACKAGS_GIT=(
