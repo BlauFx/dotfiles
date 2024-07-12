@@ -21,7 +21,7 @@ PACKAGES_PACMAN=(
 	adobe-source-han-sans-jp-fonts alacritty libappimage corectrl dotnet-sdk dotnet-runtime flatpak freerdp fuzzel hyprland \
 	libfido2 yubikey-manager yubikey-manager-qt swappy waybar \
 	xdg-desktop-portal-hyprland xdg-desktop-portal-kde xdg-desktop-portal-wlr \
-	xwaylandvideobridge zsh lazygit kvantum kscreen krdc fwupd kiten scrcpy
+	xwaylandvideobridge zsh lazygit kvantum kscreen krdc fwupd kiten scrcpy swaync
 )
 
 #TODOs
