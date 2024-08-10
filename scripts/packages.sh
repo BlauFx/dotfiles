@@ -50,8 +50,9 @@ PACKAGES_YAY=(
 	'ttf-koruri' # ttf-koruri => works with musicbee (Koruri Regular, 9pt)
 	'ttc-iosevka' # ttc-iosevka => coding font
 	'ttf-jetbrains-mono' # ttf-jetbrains-mono => coding font
+	'ttf-hack' # ttf-hack => conding font
 	'ttf-times-new-roman' # For documents
-	'jetbrains-toolbox' # ttf-jetbrains-mono => coding font
+	'jetbrains-toolbox'
 	'ttf-win10'
 	'phinger-cursors'
 	'fsearch'
