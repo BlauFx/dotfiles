@@ -30,3 +30,4 @@ systemctl --user enable opentabletdriver --now
 sudo systemctl enable sshd
 sudo systemctl enable fstrim.timer
 sudo systemctl enable paccache.timer
+sudo systemctl enable pcscd
