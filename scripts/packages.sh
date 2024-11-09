@@ -41,6 +41,8 @@ PACKAGES_YAY=(
 	#'soundux'
 	'rr'
 	'bitwise'
+	'brightness'
+	'ente-desktop-bin'
 	#'gitkraken'
 	'peazip-qt-bin'
 	'sublime-text-4'
@@ -78,6 +80,7 @@ PACKAGES_YAY=(
 	'waypaper'
 	'parsec-bin'
 	'protonup-qt-bin'
+	'yubico-authenticator-bin'
 )
 
 PACKAGS_GIT=(
