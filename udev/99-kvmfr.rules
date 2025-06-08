@@ -1,0 +1,1 @@
+SUBSYSTEM=="kvmfr", OWNER="blaufx", GROUP="kvm", MODE="0660"

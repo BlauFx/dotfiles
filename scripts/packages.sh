@@ -68,6 +68,8 @@ PACKAGES_YAY=(
 	'hyphen-de'
 	'libreoffice-extension-languagetool' # Grammar checking
 	'libmythes'
+	'mythes-en' # Thesaurus
+	'mythes-de' # Thesaurus
 	'spek-alternative'
 	'droidcam'
 	'xournalpp'
@@ -78,9 +80,9 @@ PACKAGES_YAY=(
 	'fcp-bin'
 	'epson-inkjet-printer-escpr'
 	'waypaper'
-	'parsec-bin'
 	'protonup-qt-bin'
 	'yubico-authenticator-bin'
+	'realm-studio-bin'
 )
 
 PACKAGS_GIT=(
