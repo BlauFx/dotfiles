@@ -1,10 +1,20 @@
 [gpg]
-	program = gpg2
+		program = gpg2
 [commit]
-	gpgsign = true
+		gpgsign = true
 [core]
-	autocrlf = input
-	editor = vim
-	fsmonitor = true
+		editor = vim
+		fsmonitor = true
 [init]
-	defaultBranch = main
+		defaultBranch = main
+[tag]
+		sort = version:refname
+[diff]
+		algorithm = histogram
+[push]
+		autoSetupRemote = true
+		followTags = true
+[fetch]
+		prune = true
+		pruneTags = true
+		all = true
