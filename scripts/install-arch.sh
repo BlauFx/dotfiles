@@ -11,6 +11,10 @@ if [ ! -d "$HOME/repos" ]; then
 	mkdir -p $HOME/repos
 fi
 
+if [ ! -d "$HOME/.steam/root/compatibilitytools.d/" ]; then
+	mkdir -p $HOME/.steam/root/compatibilitytools.d/
+fi
+
 #Set the maximum of cores avaiable to compile make
 #todo: MAKEFLAGS="-j$(nproc)" in /etc/makepkg.conf
 sudo sed -i 's/#MAKEFLAGS=\"-j2"/MAKEFLAGS=\"j$(nproc)\"/' /etc/makepkg.conf
@@ -27,4 +31,9 @@ fi
 systemctl --user daemon-reload
 systemctl --user enable opentabletdriver --now
 
-sudo systemctl enable sshd fstrim.timer paccache.timer pcscd cups.service
+#pacman -S system-config-printer foomatic-db foomatic-db-engine gutenprint gsfonts cups cups-pdf cups-filters sane
+#systemctl enable cups.service saned.socket
+
+sudo systemctl enable sshd
+sudo systemctl enable fstrim.timer
+sudo systemctl enable paccache.timer
