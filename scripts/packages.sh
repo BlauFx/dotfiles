@@ -12,11 +12,11 @@ PACKAGES_PACMAN=(
 	mono wine winetricks wine-mono wine_gecko lutris steam man qemu virt-manager virt-viewer \
 	dnsmasq vde2 bridge-utils openbsd-netcat edk2-ovmf  ktimetracker kdenlive kcolorpicker krita kdeconnect kcolorchooser \
 	kvantum plasma  plasma-desktop syncthing jq grsync \
-	pipewire lib32-pipewire lib32-libpulse giflib lib32-giflib libpng lib32-libpng gnutls lib32-gnutls libxinerama lib32-libxinerama \
-	libxcomposite lib32-libxcomposite autoconf-archive intltool pcre gtk3 \
+	pipewire giflib libpng gnutls libxinerama \
+	libxcomposite autoconf-archive intltool pcre gtk3 \
 	icu zsh fish rust stow hashcat kolourpaint libreoffice-fresh \
 	evolution borg asciinema httrack helvum veracrypt zip p7zip \
-	kate lib32-vulkan-icd-loader xsel solaar code bash-language-server \
+	kate xsel solaar code bash-language-server \
 	libva-mesa-driver mesa-vdpau jdk-openjdk \
 	adobe-source-han-sans-jp-fonts alacritty libappimage corectrl dotnet-sdk dotnet-runtime flatpak freerdp fuzzel hyprland \
 	libfido2 yubikey-manager yubikey-manager-qt swappy waybar \
@@ -25,25 +25,16 @@ PACKAGES_PACMAN=(
 	system-config-printer foomatic-db foomatic-db-engine gutenprint gsfonts cups cups-pdf cups-filters sane
 )
 
-#TODOs
-#lib32-gnutls
-#lib32-libxcomposite
-#lib32-mesa
-#lib32-pipewire
-#lib32-pipewire-jack
-#lib32-vulkan-radeon
-
 # yay --needed -S
 PACKAGES_YAY=(
 	'opentabletdriver'
-	'osu-lazer-bin'
+	'osu-lazer-tachyon-bin'
 	'osu-mime'
 	#'soundux'
 	'rr'
 	'bitwise'
 	'brightness'
 	'ente-desktop-bin'
-	#'gitkraken'
 	'peazip-qt-bin'
 	'sublime-text-4'
 	'needrestart'
@@ -83,6 +74,7 @@ PACKAGES_YAY=(
 	'protonup-qt-bin'
 	'yubico-authenticator-bin'
 	'realm-studio-bin'
+	'ventoy-bin'
 )
 
 PACKAGS_GIT=(
