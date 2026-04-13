@@ -7,22 +7,20 @@
 #moc-pulse clipse brightness brightnessctl epson-inkjet-printer-escpr
 PACKAGES_PACMAN=(
 	sudo make gcc git neofetch onefetch htop screen openssh curl fzf mpv vlc \
-	ffmpeg ffmpegthumbnailer ffmpegthumbs ffmpeg-audio-thumbnailer obs-studio discord audacity tree \
-	cifs-utils tokei stress github-cli cups samba vim firefox vivaldi vivaldi-ffmpeg-codecs \
+	ffmpeg ffmpegthumbnailer ffmpegthumbs ffmpeg-audio-thumbnailer obs-studio \
+	discord audacity tree cifs-utils tokei stress github-cli cups samba vim firefox \
 	mono wine winetricks wine-mono wine_gecko lutris steam man qemu virt-manager virt-viewer \
-	dnsmasq vde2 bridge-utils openbsd-netcat edk2-ovmf  ktimetracker kdenlive kcolorpicker krita kdeconnect kcolorchooser \
-	kvantum plasma  plasma-desktop syncthing jq grsync \
-	pipewire giflib libpng gnutls libxinerama \
-	libxcomposite autoconf-archive intltool pcre gtk3 \
-	icu zsh fish rust stow hashcat kolourpaint libreoffice-fresh \
-	evolution borg asciinema httrack helvum veracrypt zip p7zip \
-	kate xsel solaar code bash-language-server \
-	libva-mesa-driver mesa-vdpau jdk-openjdk \
-	adobe-source-han-sans-jp-fonts alacritty libappimage corectrl dotnet-sdk dotnet-runtime flatpak freerdp fuzzel hyprland \
-	libfido2 yubikey-manager yubikey-manager-qt swappy waybar \
+	dnsmasq vde2 bridge-utils openbsd-netcat edk2-ovmf  ktimetracker kdenlive kcolorpicker krita \
+	kdeconnect kcolorchooser kvantum plasma  plasma-desktop syncthing jq grsync pipewire giflib \
+	libpng gnutls libxinerama libxcomposite autoconf-archive intltool pcre gtk3 icu zsh fish rust \
+	stow hashcat kolourpaint libreoffice-fresh evolution borg asciinema httrack helvum veracrypt \
+	zip p7zip kate xsel code bash-language-server libva-mesa-driver mesa-vdpau jdk-openjdk \
+	alacritty libappimage corectrl dotnet-sdk dotnet-runtime flatpak fuzzel hyprland \
+	libfido2 yubikey-manager yubikey-manager-qt swappy waybar kleopatra kiten \
 	xdg-desktop-portal-hyprland xdg-desktop-portal-kde xdg-desktop-portal-wlr \
-	xwaylandvideobridge zsh lazygit kvantum kscreen krdc fwupd kiten scrcpy swaync qt6-imageformats sox kleopatra yubikey-manager yubikey-manager-qt \
-	system-config-printer foomatic-db foomatic-db-engine gutenprint gsfonts cups cups-pdf cups-filters sane
+	xwaylandvideobridge zsh lazygit kvantum kscreen krdc fwupd  scrcpy swaync \
+	qt6-imageformats sox yubikey-manager yubikey-manager-qt cups cups-pdf cups-filters \
+	system-config-printer foomatic-db foomatic-db-engine gutenprint gsfonts sane
 )
 
 # yay --needed -S
@@ -30,7 +28,6 @@ PACKAGES_YAY=(
 	'opentabletdriver'
 	'osu-lazer-tachyon-bin'
 	'osu-mime'
-	#'soundux'
 	'rr'
 	'bitwise'
 	'brightness'
@@ -50,7 +47,6 @@ PACKAGES_YAY=(
 	'ttf-win10'
 	'phinger-cursors'
 	'fsearch'
-	#'preload'
 	'mprime-bin'
 	'hunspell-en_us' # Spell checking
 	'hunspell-de'
